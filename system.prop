@@ -5,3 +5,6 @@ sys.usb.rndis.func.name=rndis_bam
 sys.usb.rmnet.func.name=rmnet_bam
 ro.board.platform=sdm710
 ro.product.board=sdm710
+
+# Dynamic partition
+ro.boot.dynamic_partitions=true
