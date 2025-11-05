@@ -19,6 +19,10 @@ PRODUCT_PACKAGES += \
     qcom_decrypt \
     qcom_decrypt_fbe
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # Additional binaries & libraries needed for recovery
 TARGET_RECOVERY_DEVICE_MODULES += \
     libandroidicu \
