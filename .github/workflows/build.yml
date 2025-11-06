@@ -50,7 +50,7 @@ jobs:
     - name: Clone device tree
       run: |
         mkdir -p ./device/lenovo
-        ln -s $GITHUB_WORKSPACE ./device/lenovo/jd2019
+        ln -s /home/runner/work/twrp_lenovo_jd2019/twrp_lenovo_jd2019 ./device/lenovo/jd2019
       working-directory: /home/runner/work/workspace
 
     - name: Set Swap Space
